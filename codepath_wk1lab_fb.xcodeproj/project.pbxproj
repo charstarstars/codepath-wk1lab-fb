@@ -19,6 +19,8 @@
 		040FB2E61C62D7FA004E041E /* NotificationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040FB2E51C62D7FA004E041E /* NotificationsViewController.swift */; };
 		040FB2E81C62D80D004E041E /* RequestsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040FB2E71C62D80D004E041E /* RequestsViewController.swift */; };
 		040FB2EA1C62D815004E041E /* MoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040FB2E91C62D815004E041E /* MoreViewController.swift */; };
+		040FB2EC1C62DD01004E041E /* ThrillistDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040FB2EB1C62DD01004E041E /* ThrillistDetailViewController.swift */; };
+		040FB2EE1C62E3E8004E041E /* ComposeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040FB2ED1C62E3E8004E041E /* ComposeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +59,8 @@
 		040FB2E51C62D7FA004E041E /* NotificationsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationsViewController.swift; sourceTree = "<group>"; };
 		040FB2E71C62D80D004E041E /* RequestsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestsViewController.swift; sourceTree = "<group>"; };
 		040FB2E91C62D815004E041E /* MoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoreViewController.swift; sourceTree = "<group>"; };
+		040FB2EB1C62DD01004E041E /* ThrillistDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThrillistDetailViewController.swift; sourceTree = "<group>"; };
+		040FB2ED1C62E3E8004E041E /* ComposeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComposeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +115,8 @@
 				040FB2B11C62CE10004E041E /* AppDelegate.swift */,
 				040FB2B31C62CE10004E041E /* ViewController.swift */,
 				040FB2B51C62CE10004E041E /* Main.storyboard */,
+				040FB2ED1C62E3E8004E041E /* ComposeViewController.swift */,
+				040FB2EB1C62DD01004E041E /* ThrillistDetailViewController.swift */,
 				040FB2E31C62D7E8004E041E /* MessagesViewController.swift */,
 				040FB2E51C62D7FA004E041E /* NotificationsViewController.swift */,
 				040FB2E71C62D80D004E041E /* RequestsViewController.swift */,
@@ -271,6 +277,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				040FB2EE1C62E3E8004E041E /* ComposeViewController.swift in Sources */,
 				040FB2EA1C62D815004E041E /* MoreViewController.swift in Sources */,
 				040FB2E61C62D7FA004E041E /* NotificationsViewController.swift in Sources */,
 				040FB2B41C62CE10004E041E /* ViewController.swift in Sources */,
@@ -278,6 +285,7 @@
 				040FB2E41C62D7E8004E041E /* MessagesViewController.swift in Sources */,
 				040FB2E81C62D80D004E041E /* RequestsViewController.swift in Sources */,
 				040FB2B21C62CE10004E041E /* AppDelegate.swift in Sources */,
+				040FB2EC1C62DD01004E041E /* ThrillistDetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
