@@ -210,10 +210,6 @@
                                 <rect key="frame" x="0.0" y="-3" width="320" height="64"/>
                                 <autoresizingMask key="autoresizingMask"/>
                             </imageView>
-                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="comment_bar" id="jQf-lQ-NZO">
-                                <rect key="frame" x="0.0" y="474" width="320" height="44"/>
-                                <autoresizingMask key="autoresizingMask"/>
-                            </imageView>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="Dbo-J2-hd9">
                                 <rect key="frame" x="0.0" y="62" width="325" height="412"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -238,11 +234,25 @@
                                     </button>
                                 </subviews>
                             </scrollView>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="comment_bar" id="jQf-lQ-NZO">
+                                <rect key="frame" x="0.0" y="474" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                            </imageView>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" id="2GD-2P-wyT">
+                                <rect key="frame" x="42" y="481" width="213" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="onCommentBarTapped:" destination="oRZ-0b-BCw" eventType="editingDidBegin" id="Ln5-VE-qDS"/>
+                                </connections>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="3lD-rs-JoZ"/>
                     <connections>
+                        <outlet property="commentBar" destination="jQf-lQ-NZO" id="7Y6-Pa-P4t"/>
                         <outlet property="imageView" destination="2Xk-jr-bqU" id="l3z-JF-W40"/>
                         <outlet property="scollView" destination="Dbo-J2-hd9" id="DmK-Dv-XUp"/>
                     </connections>

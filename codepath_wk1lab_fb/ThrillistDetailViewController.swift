@@ -10,6 +10,17 @@ import UIKit
 
 class ThrillistDetailViewController: UIViewController {
 
+    @IBAction func onCommentBarTapped(sender: UITextField) {
+        
+        print(self.commentBar.center.y)
+        
+        //self.commentBar.center.y = 100
+        UIView.animateWithDuration(0.4, animations: {
+            self.commentBar.center.y -= 174
+        })
+    }
+    @IBOutlet weak var commentBar: UIImageView!
+
     @IBAction func likeClick(sender: UIButton) {
         sender.selected = !sender.selected
     }
