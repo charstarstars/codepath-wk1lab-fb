@@ -14,6 +14,11 @@
 		040FB2BC1C62CE10004E041E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 040FB2BA1C62CE10004E041E /* LaunchScreen.storyboard */; };
 		040FB2C71C62CE10004E041E /* codepath_wk1lab_fbTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040FB2C61C62CE10004E041E /* codepath_wk1lab_fbTests.swift */; };
 		040FB2D21C62CE10004E041E /* codepath_wk1lab_fbUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040FB2D11C62CE10004E041E /* codepath_wk1lab_fbUITests.swift */; };
+		040FB2E21C62D753004E041E /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040FB2E11C62D753004E041E /* FeedViewController.swift */; };
+		040FB2E41C62D7E8004E041E /* MessagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040FB2E31C62D7E8004E041E /* MessagesViewController.swift */; };
+		040FB2E61C62D7FA004E041E /* NotificationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040FB2E51C62D7FA004E041E /* NotificationsViewController.swift */; };
+		040FB2E81C62D80D004E041E /* RequestsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040FB2E71C62D80D004E041E /* RequestsViewController.swift */; };
+		040FB2EA1C62D815004E041E /* MoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040FB2E91C62D815004E041E /* MoreViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +52,11 @@
 		040FB2CD1C62CE10004E041E /* codepath_wk1lab_fbUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = codepath_wk1lab_fbUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		040FB2D11C62CE10004E041E /* codepath_wk1lab_fbUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = codepath_wk1lab_fbUITests.swift; sourceTree = "<group>"; };
 		040FB2D31C62CE10004E041E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		040FB2E11C62D753004E041E /* FeedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		040FB2E31C62D7E8004E041E /* MessagesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessagesViewController.swift; sourceTree = "<group>"; };
+		040FB2E51C62D7FA004E041E /* NotificationsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationsViewController.swift; sourceTree = "<group>"; };
+		040FB2E71C62D80D004E041E /* RequestsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestsViewController.swift; sourceTree = "<group>"; };
+		040FB2E91C62D815004E041E /* MoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoreViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,9 +107,14 @@
 		040FB2B01C62CE10004E041E /* codepath_wk1lab_fb */ = {
 			isa = PBXGroup;
 			children = (
+				040FB2E11C62D753004E041E /* FeedViewController.swift */,
 				040FB2B11C62CE10004E041E /* AppDelegate.swift */,
 				040FB2B31C62CE10004E041E /* ViewController.swift */,
 				040FB2B51C62CE10004E041E /* Main.storyboard */,
+				040FB2E31C62D7E8004E041E /* MessagesViewController.swift */,
+				040FB2E51C62D7FA004E041E /* NotificationsViewController.swift */,
+				040FB2E71C62D80D004E041E /* RequestsViewController.swift */,
+				040FB2E91C62D815004E041E /* MoreViewController.swift */,
 				040FB2B81C62CE10004E041E /* Assets.xcassets */,
 				040FB2BA1C62CE10004E041E /* LaunchScreen.storyboard */,
 				040FB2BD1C62CE10004E041E /* Info.plist */,
@@ -256,7 +271,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				040FB2EA1C62D815004E041E /* MoreViewController.swift in Sources */,
+				040FB2E61C62D7FA004E041E /* NotificationsViewController.swift in Sources */,
 				040FB2B41C62CE10004E041E /* ViewController.swift in Sources */,
+				040FB2E21C62D753004E041E /* FeedViewController.swift in Sources */,
+				040FB2E41C62D7E8004E041E /* MessagesViewController.swift in Sources */,
+				040FB2E81C62D80D004E041E /* RequestsViewController.swift in Sources */,
 				040FB2B21C62CE10004E041E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -484,6 +504,7 @@
 				040FB2D81C62CE10004E041E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		040FB2D91C62CE10004E041E /* Build configuration list for PBXNativeTarget "codepath_wk1lab_fbTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +513,7 @@
 				040FB2DB1C62CE10004E041E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		040FB2DC1C62CE10004E041E /* Build configuration list for PBXNativeTarget "codepath_wk1lab_fbUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +522,7 @@
 				040FB2DE1C62CE10004E041E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
